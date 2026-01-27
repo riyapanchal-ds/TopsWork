@@ -1,8 +1,0 @@
-name=input("enter name")
-print(f"you have entered {name}type is {type(name)}")
-age=input("enter age")
-new_age=int(age)
-print(f"you have entered {age}type is {type(age)}type of new age {type(new_age)}")
-per=input("enter per")
-new_per=float(per)
-print(f"you have entered {per}type is {type(per)}type of new per {type(new_per)}")
