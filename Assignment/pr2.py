@@ -3,4 +3,4 @@ main_string=input("enter main string:---")
 sub_string=input("enter sub string:---")
 
 count=main_string.count(sub_string)
-print(count)
+print(count)           #substring ketli var aave che ee

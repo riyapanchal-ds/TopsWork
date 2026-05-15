@@ -1,0 +1,80 @@
+Data Definition Language (related to table) --- create , alter , drop
+Data Manipulation Langauage (related to data) --- insert, update, delete
+
+
+insert into <<table_name>>(col_name,col_name,col_name) values(val1,val2,val3)
+
+update <<table_name>> set column_name=values where column_name=value
+
+delete from <<table_name>> where column_name=value
+
+
+constraint ----- limitations  , rules
+
+1. primary key   --- To uniquely indetify record. + Not NULL (roll no , 
+			eid , cid...)
+2. unique key  ---- to uniuely indetify record , it allows one value as NULL
+			email 
+3. Not null
+4. Forighn key  ---- reference to another table
+5. default ---  
+
+
+create table customer(cid int , 
+cname varchar(20),
+c_no int(10)
+);
+
+describe customer;
+
+alter table customer add email varchar(20);
+
+describe customer;
+
+-- drop table customer;
+/*
+
+*/
+
+insert into customer(cid,cname,c_no) values(1,"dharmishtha",234567) ;
+
+
+insert into customer values(22,'Rohit',22323,'rohit@gmail.com'),
+(222,'Bhavesh',65656,'bhavesh@gmail.com'),
+(203,'Masum',5443534,'masuam@gmail.com'),
+(206,'Riya',56456,'riya@gmail.com');
+
+
+
+select * from customer;
+
+update customer set email='dharmish@gmail.com' where cid=1;
+select * from customer;
+
+delete from customer where cid=22;
+
+select * from customer;
+
+
+28th April: 
+------ we had seen join group  by
+		 
+30th April:
+function --- 2 type function
+--user defined 
+--in-bulit function (sum,count,avg)
+
+categories--- text ,numeric , data
+full name
+user--- fname,  lname
+        -concat
+        -length
+	-upper
+	-lower
+	-substring
+	-trim
+	-replace
+
+date function -
+--now    - current date and time 
+--curdate   - current date
