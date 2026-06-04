@@ -1,5 +1,0 @@
-print("hello",sep="**")
-print("welcome to tops")
-print("winter is going on")
-print("hello","good mroning","have a nice day",end="**",sep="/")
-print("winter is going on","it is 20degree",sep="$$$")
